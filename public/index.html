@@ -1,0 +1,22 @@
+<html>
+  <head>
+
+    <title>
+      Twitter Stream
+    </title>
+  </head>
+
+  <body>
+
+    <p> <b> Twitter Stream </b> </p> <br/> <br/>
+    <form method="POST" action="/locationstream/add">
+      <label> Please Enter Name of Kafka Topic </label><br/>
+      <input type="text" name="topic"> <br/> <br/>
+      <label> Enter Location Coordinates in this format (sw,ne,se,nw) followed by a space if more locations wish to be adedd </label> <br/>
+      <input type="text" name="location"> <br/> <br/>
+      <input type="submit" value="Submit">
+
+    </form>
+  </body>
+
+</html>
